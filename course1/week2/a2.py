@@ -41,8 +41,8 @@ from PIL import Image
 from scipy import ndimage
 import h5py
 import os
-from practice.anne.c1.w2 import activitive_utils as acu
-import lr_utils as lru
+from course1.week2 import activitive_utils as acu
+from course1.week2 import lr_utils as lru
 import time
 
 def extract_image(filename,dir,key):
