@@ -25,11 +25,11 @@ np.ravel() inplace & np.flatten() copy
 # Package imports
 import numpy as np
 import matplotlib.pyplot as plt
-from course1.week3.testCases import *
+from testCases import *
 import sklearn
 import sklearn.datasets
 import sklearn.linear_model
-from course1.week3.planar_utils import plot_decision_boundary, sigmoid, load_planar_dataset, load_extra_datasets
+from planar_utils import plot_decision_boundary, sigmoid, load_planar_dataset, load_extra_datasets
 
 # np.random.seed(1) # set a seed so that the results are consistent
 # X, Y = load_planar_dataset()
